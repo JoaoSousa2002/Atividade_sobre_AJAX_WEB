@@ -1,0 +1,8 @@
+Async/Await -> Manipulação das promisses de forma implicita (Em backgroud)
+    Async -> Declaração de Função
+    Await -> Objeto com o fetch
+
+Fetch() -> Manipula os promisses de forma explicita (Diretamente no codigo)	
+
+
+1. Fetch é mais rapido (media de 2ms para responder, enquanto o async/await é 30ms, ambos são muito rapidos de qualquer maneira
