@@ -27,8 +27,9 @@ Async/Await tem uma sintaxe que permite escrever código assíncrono com aparên
 
 # Desempenho
 
-| Metodo       | Desempenho                                                       | Facilidade                                                                 |
-|---------------|------------------------------------------------------------------|------------------------------------------------------------------------------|
-| Async/Await   | Muito rapido, quase impercepitivel Media 190ms (10 requisições) | Facil                                                                       |
-| Fetch         | Muito rapido, Media de 2ms em 10 requisições                   | Muito facil                                                                 |
-| promisses     | x                                                                | Não foi possivel usar o objeto promisses puro, sempre leva ao fetch() ou async/await |
+| Metodo         | Desempenho                                                        | Facilidade                                                                 |
+|-----------------|-------------------------------------------------------------------|------------------------------------------------------------------------------|
+| XmlHttprequest  | Muito rapido, Media de 3ms em 10 requisições                    | Dificil, Muito verboso e exige uma pesquisa maior                           |
+| Async/Await     | Muito rapido, quase impercepitivel Media 190ms (10 requisições) | Facil                                                                       |
+| Fetch           | Muito rapido, Media de 2ms em 10 requisições                    | Muito facil                                                                 |
+| promisses       | x                                                                 | Não foi possivel usar o objeto promisses puro, sempre leva ao fetch() ou async/await |
