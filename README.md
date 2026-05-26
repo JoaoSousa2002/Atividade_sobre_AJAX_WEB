@@ -1,4 +1,5 @@
-Pesquisa AJAX
+# Pesquisa AJAX
+### Aluno: João Victor Sousa da Conceição
 
 AJAX é uma técnica de desenvolvimento WEB onde um app WEB faz requisições HTTP de forma assíncrona, ou seja, atualizar uma parte da pagina sem precisar recarregar a pagina inteira
 
