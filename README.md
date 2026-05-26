@@ -10,13 +10,17 @@ Tipos de requisição WEB:
 Os metodos de AJAX são **XmlHttpRequest**, **fetch**, **Promises** e **async/await**
 
 #XmlHttprequest
+
 O XmlHttpRequest é o metodo mais antigo de requisição assincrona em HTTP, é um metodo bem mais verboso que os outros, sendo bastante problematico em requisições aninhadas alem de não retornar promisse nativamente.
 
 ##Promisses
+
 Promisses são objetos que representam a conclusao ou falha de uma requisição assincrona, sendo a base dos metodos Fetch() e Async/Await
 
 #Fetch API
+
 Fetch API É uma evolução mais forte e flexível do XmlHttpRequest, por ser mais simples por exigir menos linhas, melhor tratamento de erro e baseado em promisses
 
 #Async/Await
+
 Async/Await tem uma sintaxe que permite escrever código assíncrono com aparência síncrona. Toda função async retorna uma Promise. O await pausa a execução da função até a Promise resolver, usando o try/catch
