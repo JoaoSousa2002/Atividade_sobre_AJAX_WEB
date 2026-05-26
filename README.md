@@ -24,3 +24,11 @@ Fetch API É uma evolução mais forte e flexível do XmlHttpRequest, por ser ma
 ## Async/Await
 
 Async/Await tem uma sintaxe que permite escrever código assíncrono com aparência síncrona. Toda função async retorna uma Promise. O await pausa a execução da função até a Promise resolver, usando o try/catch
+
+# Desempenho
+
+| Metodo       | Desempenho                                                       | Facilidade                                                                 |
+|---------------|------------------------------------------------------------------|------------------------------------------------------------------------------|
+| Async/Await   | Muito rapido, quase impercepitivel Media 190ms (10 requisições) | Facil                                                                       |
+| Fetch         | Muito rapido, Media de 2ms em 10 requisições                   | Muito facil                                                                 |
+| promisses     | x                                                                | Não foi possivel usar o objeto promisses puro, sempre leva ao fetch() ou async/await |
